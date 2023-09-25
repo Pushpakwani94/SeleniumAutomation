@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class WordCount {
 
+	@SuppressWarnings("rawtypes")
 	static void characterCount(String inputString) {
 		// Creating a HashMap containing char
 		// as a key and occurrences as a value
