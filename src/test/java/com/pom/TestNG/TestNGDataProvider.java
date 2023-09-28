@@ -13,7 +13,7 @@ public class TestNGDataProvider {
 	
 	@DataProvider (name = "dpName")
 	public Object[][] dpMethod() {
-	    return new Object [][] {{"pushpak@accelerationco.com","Pushpak"}};
+	    return new Object [][] {{"pushpak@accelerationco.com","Pushpak"},{"Bhushan@accelerationco.com","Bhushan"}};
 	}
 
 	@Test (dataProvider = "dpName")
